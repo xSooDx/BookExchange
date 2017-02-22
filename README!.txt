@@ -1,4 +1,6 @@
 
+##This is my project for my web technology course
+
 Copy the contents of this folder into 'htdocs' of XAMPP
 
 To use all the databases and php scripts, the below user must be added to the myPHPadmin
