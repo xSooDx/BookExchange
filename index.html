@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+	
+		<link rel="stylesheet" type="text/css" href="res/styles/BaseStyles.css"/>
+		<link rel="stylesheet" type="text/css" href="res/styles/LoginPageStyles.css"/>
+		<script src="res/scripts/loginscript.js"></script>
+	</head>
+	
+	<body>
+		<header id="page_header">
+			<div class="container" id="header_content">
+				<div id="logo_container">
+					<a href="index.html"><img style="margin-top:10px;"height=70px title="Book Exchange" alt="Book Exchange" src="res/images/title.png"/></a>
+				</div>
+				
+				<div id="login_box">
+					<form id="login_form" action="login.php" method="post" target="_blank" onsubmit="return validateLogin()">
+						<table id="login_info">
+							<tr>
+								<td>
+									<input type="email" id="login_email" name="login_email" placeholder="Enter Email ID"/>
+								</td>
+								<td>
+									<input type="password" id="login_password" name="login_password" placeholder="Enter password"/><br/>
+								</td>
+								<td rowspan="2">
+									<input class="btn" type="submit" value="Login"/>
+								</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td>
+									<!--<a href="ForgotPassword.html">Forgot password?</a> -->
+								</td>
+							</tr>
+						</table>						
+					</form>
+				 
+				</div>
+			 
+			</div>
+		</header>
+		
+		<main id="page_main">
+			<div class="container">
+				<div id="why_sign_up" class="lfloat">
+					<canvas id="canvas" class="content_container"width="500" height="500">
+						<img id="rupee" src="res/images/rupee.jpg"/>
+						<img id="arrow" src="res/images/arrow.jpg"/>
+						<img id="book" src="res/images/book.jpg"/>
+					</canvas>
+					
+				</div>
+				
+				<form id="signup_form" class="content_container rfloat" action="signup.php" method="post" target="_blank" onsubmit="return validateSignup()">
+					<h1>Sign Up!</h1>
+					<h3>It's Free!</h3>
+					<input type="name" id="signup_name" name="signup_name" placeholder="Enter Full Name">	<br/>
+					<input type="email" id="signup_email" name="signup_email" placeholder="Enter Email ID"> <br/>	
+					<input type="password" id ="signup_password" name="signup_password" placeholder="Enter Password">	<br/>				
+					<input class="btn" type="submit" id="signup_submit" value="Sign Up!" ><br/>
+				</form>		
+			</div>
+		</main>
+		
+		<footer id="page_footer">
+			<div id="footer_container"class="container">
+				&copy Saurabh Sood, Rohan Kanuri, Shreyaa Giridhar
+			</div>
+		</footer>
+		<script src="res/scripts/canvasscript.js"></script>
+	</body>
+
+</html>

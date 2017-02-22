@@ -1,0 +1,20 @@
+.prev{
+	display:inline;
+	float:left;
+	margin:10px;
+	width:320px;
+}
+.prev img{
+	width:100px
+}
+
+.prev table{
+	padding:5px;
+}
+
+#sale_list{
+	margin-bottom:100px;
+}
+.details{
+	overflow:auto;
+}

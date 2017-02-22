@@ -1,0 +1,20 @@
+#help_form input[type=text]{
+	width:90%;
+	height:30px;
+	font-size:20px;
+	display:block;
+	margin:10px;
+	margin-left:50px;
+	margin-bottom:20px;
+}
+
+#help_form textarea{
+	width:90%;
+	height:200px;
+	font-size:20px;
+	display:block;
+	margin:10px;
+	margin-bottom:20px;
+	margin-left:50px;
+	resize:none;
+}
